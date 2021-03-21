@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _icons_map__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons-map */ "./src/js/gutenberg/blocks/heading-with-icon/icons-map.js");
+/* harmony import */ var _icons_map__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons-map */ "./src/js/gutenberg/blocks/heading-with-icon/icons-map.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -136,7 +136,7 @@ var Edit = function Edit(props) {
       setAttributes = props.setAttributes;
   var option = attributes.option,
       content = attributes.content;
-  var HeadingIcon = Object(_icons_map__WEBPACK_IMPORTED_MODULE_4__["getIconComponent"])(option);
+  var HeadingIcon = Object(_icons_map__WEBPACK_IMPORTED_MODULE_3__["getIconComponent"])(option);
   return /*#__PURE__*/React.createElement("div", {
     className: 'chestnut-icon-heading'
   }, /*#__PURE__*/React.createElement("span", {
@@ -218,7 +218,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./edit */ "./src/js/gutenberg/blocks/heading-with-icon/edit.js");
-/* harmony import */ var _icons_map__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons-map */ "./src/js/gutenberg/blocks/heading-with-icon/icons-map.js");
+/* harmony import */ var _icons_map__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons-map */ "./src/js/gutenberg/blocks/heading-with-icon/icons-map.js");
 
 
 
@@ -251,7 +251,7 @@ Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__["registerBlockType"])('che
     var _props$attributes = props.attributes,
         option = _props$attributes.option,
         content = _props$attributes.content;
-    var HeadingIcon = Object(_icons_map__WEBPACK_IMPORTED_MODULE_6__["getIconComponent"])(option);
+    var HeadingIcon = Object(_icons_map__WEBPACK_IMPORTED_MODULE_5__["getIconComponent"])(option);
     return /*#__PURE__*/React.createElement("div", {
       className: "aquila-icon-heading"
     }, /*#__PURE__*/React.createElement("span", {
