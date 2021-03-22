@@ -52,6 +52,19 @@ function register_block_patterns() {
                 'content' => $header_v1_content,
             ]
         );
+		/**
+		 * Banner
+		 */
+		$banner_v1_content = get_pattern_content( 'template-parts/patterns/banners/banenr-v1' );
+		register_block_pattern(
+			'banner/banner-v1',
+			[
+				'title' => __( 'Banner V1', 'chestnut' ),
+				'description' => __( 'Banner V1', 'chestnut' ),
+				'categories' => [ 'banner' ],
+				'content' => $banner_v1_content,
+			]
+		);
     }
 }
 
@@ -69,6 +82,7 @@ function register_block_pattern_categories() {
         'cover' => __( 'Cover', 'chestnut' ),
         'columns' => __( 'Columns', 'chestnut' ),
         'header' => __( 'Header', 'chestnut' ),
+        'banner' => __( 'Banner', 'chestnut' ),
     ];
 
     if ( ! empty( $pattern_categories ) && is_array( $pattern_categories ) ) {
